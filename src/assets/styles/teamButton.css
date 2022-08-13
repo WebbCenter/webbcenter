@@ -51,12 +51,15 @@ a i::before
 	background: #27282c;
 	border: 2px solid var(--clr);
 	transition: 0.5s;
+	
 }
 a:hover i::before 
 {
 	left: 0%;
 	transform: translateX(-50%) rotate(45deg);
 	box-shadow: 40px 39px var(--clr);
+	border-radius: 10px;
+	
 }
 
 
@@ -71,11 +74,12 @@ a i::after
 	height: 1vw;
 	background: #27282c;
 	border: 2px solid var(--clr);
-	transition: 0.5s;
+	transition: 0.5s;	
 }
 a:hover i::after 
 {
 	left: 100%;
 	transform: translateX(-50%) rotate(-45deg);
 	box-shadow: 38px -39px var(--clr);
+	border-radius: 10px;
 }

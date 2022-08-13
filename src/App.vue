@@ -1,6 +1,5 @@
 <template>
    <div className="header">
-          <button>oi</button>
         </div>  
         <br/>
         <h1 className='flex'>E então, você está pronto<br/>para escolher seu lado?</h1>
