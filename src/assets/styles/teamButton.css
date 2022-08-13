@@ -8,15 +8,15 @@ a
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 1.5em;
-	letter-spacing: 0.1em;
+	letter-spacing: -0.1em;
 	font-weight: 400;
-	padding: 10px 30px;
+	padding: 0.5vw 2.5vw;
 	transition: 0.5s;
-  margin: 20px;
+  	margin: 2vw;
 }
 a:hover 
 {
-	letter-spacing: 0.25em;
+	letter-spacing: 0.1em;
 	background: var(--clr);
 	color: var(--clr);
 	box-shadow: 0 0 35px var(--clr);
@@ -46,8 +46,8 @@ a i::before
 	top: -6px;
 	left: 100%;
 	transform: translateX(-50%);
-	width: 10px;
-	height: 10px;
+	width: 1vw;
+	height: 1vw;
 	background: #27282c;
 	border: 2px solid var(--clr);
 	transition: 0.5s;
@@ -67,8 +67,8 @@ a i::after
 	bottom: -6px;
 	left: 0;
 	transform: translateX(-50%);
-	width: 10px;
-	height: 10px;
+	width: 1vw;
+	height: 1vw;
 	background: #27282c;
 	border: 2px solid var(--clr);
 	transition: 0.5s;
