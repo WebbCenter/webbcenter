@@ -1,26 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <div className="header">
+          <button>oi</button>
+        </div>  
+        <br/>
+        <h1 className='flex'>E então, você está pronto<br/>para escolher seu lado?</h1>
+        <a href="https://discord.gg/webbcenter" target="_blank" style="--clr:#1e9bff"><span>ANDRÔMEDA</span><i></i></a>
+        <a href="https://discord.gg/webbcenter" target="_blank" style="--clr:#ff1867"><span>BELLATRIX</span><i></i></a>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //HelloWorld
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
